@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>UniPath</title>
+
+    <!-- Referencia para enlazar el archivo CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <!-- Titulo -->
+        <h1>UniPath</h1>
+
+        <!-- Menú de navegación -->
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#funcionamiento">¿Cómo funciona?</a>
+            <a href="#planificar">Planificar</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="inicio">
+
+            <h2>Planificá mejor tu carrera universitaria</h2>
+
+            <p>
+                UniPath es una aplicación web pensada para ayudar a los estudiantes
+                a organizar las materias de su carrera de una forma más sencilla.
+            </p>
+
+            <p>
+                La idea es que el estudiante pueda indicar cuáles materias ya aprobó,
+                cuántas materias desea llevar por cuatrimestre y así visualizar una
+                posible ruta para avanzar en su carrera.
+            </p>
+
+        </section>
+
+        <section id="funcionamiento">
+
+            <h2>¿Cómo funciona UniPath?</h2>
+
+            <div>
+                <h3>1. Materias aprobadas</h3>
+                <p>
+                    El estudiante indica cuáles materias ya ha aprobado durante la carrera.
+                </p>
+            </div>
+
+            <div>
+                <h3>2. Disponibilidad</h3>
+                <p>
+                    El estudiante define cuántas materias desea llevar por cuatrimestre.
+                </p>
+            </div>
+
+            <div>
+                <h3>3. Ruta recomendada</h3>
+                <p>
+                    UniPath muestra una posible ruta de materias tomando en cuenta
+                    los requisitos del plan de estudios.
+                </p>
+            </div>
+
+        </section>
+
+        <!-- Formulario de planificación -->
+
+        <section id="planificar">
+
+            <h2>Planificá tu carrera</h2>
+
+            <p>
+                Completá la siguiente información para iniciar tu planificación académica.
+            </p>
+
+            <form>
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+
+                <label for="contacto">Contacto:</label>
+                <input type="text" id="contacto" name="contacto">
+
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha">
+
+                <label for="materias">Cantidad de materias:</label>
+                <input type="number" id="materias" name="materias">
+
+                <label for="comentarios">Comentarios:</label>
+                <textarea id="comentarios" name="comentarios"></textarea>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+
+        </section>
+    </main>
+    
+    <!-- Pie de pagina  -->
+    <footer>
+
+        <p>UniPath - Planificación Académica</p>
+
+        <p>Proyecto universitario 2026</p>
+
+    </footer>
+</body>
+
+</html>
